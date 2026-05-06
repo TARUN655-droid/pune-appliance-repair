@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kuldeep Home Appliance Repair | Gas Stove, Geyser, Mixer, Fan & More – Home Service Available</title>
+  <meta name="description" content="Expert repair for all home appliances – Gas Stove, Geyser, Fan, Mixer, Room Heater, Blender, Toaster & more. Kuldeep Rajpurohit offers reliable doorstep home service. Call +91-8875474793." />
+  <meta name="keywords" content="home appliance repair, gas stove repair, geyser repair, fan repair, mixer repair, room heater repair, toaster repair, blender repair, home service appliance repair, Kuldeep Rajpurohit" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Kuldeep Rajpurohit" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kuldeep Home Appliance Repair – Doorstep Service" />
+  <meta property="og:description" content="All home appliance repairs at your doorstep. Gas Stove, Geyser, Fan, Mixer & more. Call +91-8875474793." />
+  <meta property="og:type" content="website" />
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Kuldeep Home Appliance Repair",
+    "description": "Expert repair for all home appliances including Gas Stove, Geyser, Fan, Mixer, Room Heater, Blender, Toaster and all types of home appliances. Home service available.",
+    "telephone": "+91-8875474793",
+    "email": "kuldeeprajpurohit1211@gmail.com",
+    "serviceType": "Home Appliance Repair",
+    "areaServed": "Home Service Available",
+    "openingHours": "Mo-Su 08:00-20:00"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #0a0a0c;
+      --bg2: #111116;
+      --bg3: #16161e;
+      --card: #1a1a24;
+      --border: rgba(255,255,255,0.07);
+      --accent: #f97316;
+      --accent2: #fb923c;
+      --accent-glow: rgba(249,115,22,0.18);
+      --text: #f0ede8;
+      --muted: #8a8799;
+      --white: #ffffff;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    h1,h2,h3,h4 { font-family: 'Plus Jakarta Sans', sans-serif; line-height: 1.15; }
+
+    a { text-decoration: none; color: inherit; }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 5%;
+      background: rgba(10,10,12,0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800; font-size: 1.25rem;
+      letter-spacing: -0.02em;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-links { display: flex; gap: 32px; list-style: none; }
+    .nav-links a {
+      font-size: 0.875rem; font-weight: 500; color: var(--muted);
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--white); }
+    .nav-cta {
+      background: var(--accent); color: #fff;
+      padding: 10px 22px; border-radius: 8px;
+      font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; font-size: 0.875rem;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .nav-cta:hover { background: var(--accent2); transform: translateY(-1px); }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+    .hamburger span { width: 24px; height: 2px; background: var(--text); border-radius: 2px; transition: 0.3s; }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex; align-items: center;
+      padding: 120px 5% 80px;
+      position: relative; overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0; z-index: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 70% 40%, rgba(249,115,22,0.12) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 40% at 20% 80%, rgba(249,115,22,0.06) 0%, transparent 60%);
+    }
+    .hero-grid {
+      position: absolute; inset: 0; z-index: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 50px 50px;
+      mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 700px; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(249,115,22,0.12); border: 1px solid rgba(249,115,22,0.3);
+      color: var(--accent); padding: 6px 14px; border-radius: 999px;
+      font-size: 0.8rem; font-weight: 500; margin-bottom: 28px;
+      animation: fadeUp 0.6s ease both;
+    }
+    .hero-badge::before { content: '●'; font-size: 0.5rem; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+    h1.hero-title {
+      font-size: clamp(2.6rem, 6vw, 4.5rem);
+      font-weight: 800; letter-spacing: -0.03em;
+      margin-bottom: 22px;
+      animation: fadeUp 0.6s 0.1s ease both;
+    }
+    h1.hero-title em { font-style: normal; color: var(--accent); }
+
+    .hero-desc {
+      font-size: 1.125rem; color: var(--muted); max-width: 540px;
+      margin-bottom: 40px; font-weight: 300;
+      animation: fadeUp 0.6s 0.2s ease both;
+    }
+    .hero-actions {
+      display: flex; flex-wrap: wrap; gap: 14px;
+      animation: fadeUp 0.6s 0.3s ease both;
+    }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--accent); color: #fff;
+      padding: 14px 28px; border-radius: 10px;
+      font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 0.95rem;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 0 0 0 var(--accent-glow);
+    }
+    .btn-primary:hover { background: var(--accent2); transform: translateY(-2px); box-shadow: 0 8px 32px var(--accent-glow); }
+    .btn-secondary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent; color: var(--text);
+      padding: 14px 28px; border-radius: 10px;
+      border: 1px solid var(--border);
+      font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; font-size: 0.95rem;
+      transition: border-color 0.2s, color 0.2s, transform 0.15s;
+    }
+    .btn-secondary:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
+
+    .hero-stats {
+      display: flex; gap: 40px; margin-top: 56px; flex-wrap: wrap;
+      animation: fadeUp 0.6s 0.4s ease both;
+    }
+    .stat { }
+    .stat-num { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 2rem; font-weight: 800; color: var(--white); }
+    .stat-num span { color: var(--accent); }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 2px; }
+
+    @keyframes fadeUp {
+      from { opacity:0; transform:translateY(20px); }
+      to { opacity:1; transform:translateY(0); }
+    }
+
+    /* SECTIONS */
+    section { padding: 90px 5%; }
+    .section-label {
+      font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--accent);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 800; letter-spacing: -0.025em;
+      margin-bottom: 16px;
+    }
+    .section-title em { font-style: normal; color: var(--accent); }
+    .section-desc { color: var(--muted); max-width: 520px; font-size: 1rem; font-weight: 300; }
+
+    /* SERVICES */
+    .services { background: var(--bg2); }
+    .services-header { margin-bottom: 56px; }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .service-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 24px;
+      transition: border-color 0.25s, transform 0.2s, box-shadow 0.25s;
+      cursor: default;
+      position: relative; overflow: hidden;
+    }
+    .service-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--accent), transparent);
+      opacity: 0; transition: opacity 0.3s;
+    }
+    .service-card:hover {
+      border-color: rgba(249,115,22,0.35);
+      transform: translateY(-4px);
+      box-shadow: 0 16px 48px rgba(0,0,0,0.4), 0 0 0 1px rgba(249,115,22,0.1);
+    }
+    .service-card:hover::before { opacity: 1; }
+    .service-icon {
+      font-size: 2.2rem; margin-bottom: 16px;
+      display: block;
+    }
+    .service-name {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700; font-size: 1.05rem;
+      margin-bottom: 8px;
+    }
+    .service-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
+
+    /* WHY US */
+    .why-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 64px; align-items: center; margin-top: 0;
+    }
+    .why-features { display: flex; flex-direction: column; gap: 28px; margin-top: 40px; }
+    .why-feat {
+      display: flex; gap: 18px; align-items: flex-start;
+    }
+    .why-feat-icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: var(--accent-glow); border: 1px solid rgba(249,115,22,0.2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem; flex-shrink: 0;
+    }
+    .why-feat-text h4 { font-size: 0.95rem; font-weight: 600; margin-bottom: 4px; }
+    .why-feat-text p { font-size: 0.85rem; color: var(--muted); }
+    .why-visual {
+      background: var(--bg3); border: 1px solid var(--border);
+      border-radius: 24px; padding: 40px 32px;
+      position: relative; overflow: hidden;
+    }
+    .why-visual::before {
+      content: '';
+      position: absolute; top: -60px; right: -60px;
+      width: 200px; height: 200px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(249,115,22,0.15), transparent 70%);
+    }
+    .why-visual-inner { position: relative; z-index: 1; }
+    .why-cta-card {
+      background: linear-gradient(135deg, rgba(249,115,22,0.15), rgba(249,115,22,0.05));
+      border: 1px solid rgba(249,115,22,0.25);
+      border-radius: 16px; padding: 28px 24px; margin-bottom: 20px;
+    }
+    .why-cta-card h3 { font-size: 1.4rem; font-weight: 800; margin-bottom: 8px; }
+    .why-cta-card p { font-size: 0.85rem; color: var(--muted); margin-bottom: 20px; }
+    .call-btn {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--accent); color: #fff;
+      padding: 12px 22px; border-radius: 9px;
+      font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+    .call-btn:hover { background: var(--accent2); }
+    .contact-info-list { display: flex; flex-direction: column; gap: 12px; }
+    .contact-info-item {
+      display: flex; align-items: center; gap: 12px;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; padding: 12px 16px;
+      font-size: 0.875rem;
+    }
+    .contact-info-item .ci-icon { font-size: 1rem; }
+    .contact-info-item a { color: var(--text); transition: color 0.2s; }
+    .contact-info-item a:hover { color: var(--accent); }
+
+    /* PROCESS */
+    .process { background: var(--bg2); }
+    .process-steps {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0; margin-top: 56px; position: relative;
+    }
+    .process-steps::before {
+      content: '';
+      position: absolute; top: 28px; left: 10%; right: 10%; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--border), var(--border), transparent);
+    }
+    .process-step { text-align: center; padding: 0 20px; position: relative; }
+    .step-num {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--card); border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+      font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800;
+      color: var(--accent); font-size: 1.1rem;
+      position: relative; z-index: 1;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .process-step:hover .step-num {
+      background: var(--accent-glow); border-color: rgba(249,115,22,0.4);
+    }
+    .step-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.95rem; font-weight: 700; margin-bottom: 8px; }
+    .step-desc { font-size: 0.8rem; color: var(--muted); }
+
+    /* CONTACT */
+    .contact-section { background: var(--bg); }
+    .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; align-items: start; margin-top: 48px; }
+    .contact-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 28px;
+      display: flex; gap: 18px; align-items: flex-start;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .contact-card:hover { border-color: rgba(249,115,22,0.3); transform: translateY(-3px); }
+    .cc-icon {
+      width: 52px; height: 52px; border-radius: 14px;
+      background: var(--accent-glow); border: 1px solid rgba(249,115,22,0.2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem; flex-shrink: 0;
+    }
+    .cc-text label { display: block; font-size: 0.72rem; color: var(--muted); margin-bottom: 5px; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600; }
+    .cc-text a, .cc-text span { font-weight: 600; font-size: 1rem; color: var(--text); transition: color 0.2s; }
+    .cc-text a:hover { color: var(--accent); }
+    .contact-wa-btn {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: #25D366; color: #fff;
+      padding: 14px 28px; border-radius: 10px;
+      font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 0.95rem;
+      transition: background 0.2s, transform 0.15s;
+      margin-top: 32px;
+    }
+    .contact-wa-btn:hover { background: #1ebe5d; transform: translateY(-2px); }
+
+    /* FOOTER */
+    footer {
+      background: var(--bg2); border-top: 1px solid var(--border);
+      padding: 48px 5% 28px;
+    }
+    .footer-top { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 32px; margin-bottom: 40px; }
+    .footer-brand .nav-logo { font-size: 1.4rem; margin-bottom: 10px; }
+    .footer-brand p { font-size: 0.85rem; color: var(--muted); max-width: 280px; }
+    .footer-links h4 { font-family: 'Syne', sans-serif; font-size: 0.85rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 14px; }
+    .footer-links ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .footer-links ul li a { font-size: 0.875rem; color: var(--muted); transition: color 0.2s; }
+    .footer-links ul li a:hover { color: var(--white); }
+    .footer-bottom { border-top: 1px solid var(--border); padding-top: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .footer-bottom p { font-size: 0.8rem; color: var(--muted); }
+    .footer-home-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(249,115,22,0.1); border: 1px solid rgba(249,115,22,0.2);
+      color: var(--accent); padding: 5px 12px; border-radius: 999px;
+      font-size: 0.75rem; font-weight: 600;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .why-grid { grid-template-columns: 1fr; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .process-steps::before { display: none; }
+    }
+    @media (max-width: 700px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .nav-links.open {
+        display: flex; flex-direction: column;
+        position: fixed; top: 60px; left: 0; right: 0;
+        background: var(--bg2); border-bottom: 1px solid var(--border);
+        padding: 24px 5%; gap: 20px; z-index: 99;
+      }
+      .hero-stats { gap: 24px; }
+      .form-row { grid-template-columns: 1fr; }
+      .contact-form { padding: 24px 20px; }
+      .footer-top { flex-direction: column; }
+    }
+
+    /* FLOATING CTA */
+    .float-cta {
+      position: fixed; bottom: 24px; right: 24px; z-index: 200;
+      display: flex; flex-direction: column; gap: 12px; align-items: flex-end;
+    }
+    .float-btn {
+      display: flex; align-items: center; gap: 10px;
+      padding: 12px 18px; border-radius: 999px;
+      font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.875rem;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .float-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,0.5); }
+    .float-call { background: var(--accent); color: #fff; }
+    .float-wa { background: #25D366; color: #fff; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav role="navigation" aria-label="Main Navigation">
+    <div class="nav-logo">Kuldeep<span>Repair</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="#process">How It Works</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="nav-cta" href="tel:+918875474793">📞 Call Now</a>
+    <div class="hamburger" onclick="toggleMenu()" aria-label="Toggle Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-badge">🏠 Home Service Available</div>
+      <h1 class="hero-title">
+        Expert Repair for<br /><em>All Home Appliances</em>
+      </h1>
+      <p class="hero-desc">
+        Gas stove, geyser, fan, mixer, room heater, blender, toaster and every home appliance — repaired fast, right at your doorstep by Kuldeep Rajpurohit.
+      </p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="tel:+918875474793">📞 Call +91-8875474793</a>
+        <a class="btn-secondary" href="#services">View Services →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">500<span>+</span></div>
+          <div class="stat-label">Appliances Repaired</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">10<span>+</span></div>
+          <div class="stat-label">Appliance Types</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">🏠</div>
+          <div class="stat-label">Doorstep Service</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SERVICES -->
+  <section class="services" id="services" aria-label="Our Services">
+    <div class="services-header">
+      <p class="section-label">What We Fix</p>
+      <h2 class="section-title">All Home Appliance <em>Repair Services</em></h2>
+      <p class="section-desc">From kitchen essentials to heating and cooking appliances — we repair them all, right at your home.</p>
+    </div>
+    <div class="services-grid">
+      <article class="service-card">
+        <span class="service-icon">🔥</span>
+        <h3 class="service-name">Gas Stove Repair</h3>
+        <p class="service-desc">All types of gas stoves — single burner to multi-burner, ignition issues, gas leaks & more.</p>
+      </article>
+      <article class="service-card">
+        <span class="service-icon">🌀</span>
+        <h3 class="service-name">Fan Repair</h3>
+        <p class="service-desc">Ceiling, table, exhaust & wall fans. Speed issues, motor faults, noise problems fixed.</p>
+      </article>
+      <article class="service-card">
+        <span class="service-icon">⚙️</span>
+        <h3 class="service-name">Mixer / Grinder</h3>
+        <p class="service-desc">All mixer brands repaired — motor problems, jar leakage, switch issues & blade replacement.</p>
+      </article>
+      <article class="service-card">
+        <span class="service-icon">🚿</span>
+        <h3 class="service-name">Geyser / Water Heater</h3>
+        <p class="service-desc">Instant & storage geysers. Not heating, leaking, thermostat faults — all repaired.</p>
+      </article>
+      <article class="service-card">
+        <span class="service-icon">🌡️</span>
+        <h3 class="service-name">Room Heater</h3>
+        <p class="service-desc">Oil-filled, quartz & fan heaters. Not turning on, overheating, thermostat issues.</p>
+      </article>
+      <article class="service-card">
+        <span class="service-icon">🥚</span>
+        <h3 class="service-name">Beater / Hand Mixer</h3>
+        <p class="service-desc">Electric beaters and hand mixers — motor, speed controls and attachment issues.</p>
+      </article>
+      <article class="service-card">
+        <span class="service-icon">🥤</span>
+        <h3 class="service-name">Blender</h3>
+        <p class="service-desc">Countertop and personal blenders repaired. Blade assembly, motor and jar seal fixes.</p>
+      </article>
+      <article class="service-card">
+        <span class="service-icon">🍞</span>
+        <h3 class="service-name">Toaster</h3>
+        <p class="service-desc">Bread toasters and toaster ovens. Heating element, timer and ejector mechanism repairs.</p>
+      </article>
+      <article class="service-card" style="background: linear-gradient(135deg, rgba(249,115,22,0.1), var(--card)); border-color: rgba(249,115,22,0.2);">
+        <span class="service-icon">🔧</span>
+        <h3 class="service-name">All Other Appliances</h3>
+        <p class="service-desc">Iron, kettle, sandwich maker, juicer, and any other home appliance — just give us a call!</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why" aria-label="Why Choose Us">
+    <div class="why-grid">
+      <div>
+        <p class="section-label">Why Choose Us</p>
+        <h2 class="section-title">Trusted Repairs, <em>Right at Your Door</em></h2>
+        <p class="section-desc">We bring professional repair expertise directly to your home — no hassle, no waiting.</p>
+        <div class="why-features">
+          <div class="why-feat">
+            <div class="why-feat-icon">🏠</div>
+            <div class="why-feat-text">
+              <h4>Home Service Available</h4>
+              <p>No need to carry your appliance anywhere. We come to you at a time that suits you.</p>
+            </div>
+          </div>
+          <div class="why-feat">
+            <div class="why-feat-icon">⚡</div>
+            <div class="why-feat-text">
+              <h4>Fast Turnaround</h4>
+              <p>Most repairs completed on the spot during the same visit. Minimal downtime.</p>
+            </div>
+          </div>
+          <div class="why-feat">
+            <div class="why-feat-icon">🛡️</div>
+            <div class="why-feat-text">
+              <h4>All Brands & Types</h4>
+              <p>We repair appliances of every brand and model — domestic or imported.</p>
+            </div>
+          </div>
+          <div class="why-feat">
+            <div class="why-feat-icon">💰</div>
+            <div class="why-feat-text">
+              <h4>Transparent Pricing</h4>
+              <p>Fair and honest pricing. You'll know the cost before any work begins.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="why-visual">
+        <div class="why-visual-inner">
+          <div class="why-cta-card">
+            <h3>Book a Home Visit</h3>
+            <p>Call or WhatsApp us to schedule your repair at a time convenient for you.</p>
+            <a class="call-btn" href="tel:+918875474793">📞 +91-8875474793</a>
+          </div>
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <span class="ci-icon">📞</span>
+              <a href="tel:+918875474793">+91-8875474793</a>
+            </div>
+            <div class="contact-info-item">
+              <span class="ci-icon">✉️</span>
+              <a href="mailto:kuldeeprajpurohit1211@gmail.com">kuldeeprajpurohit1211@gmail.com</a>
+            </div>
+            <div class="contact-info-item">
+              <span class="ci-icon">👨‍🔧</span>
+              <span>Kuldeep Rajpurohit</span>
+            </div>
+            <div class="contact-info-item">
+              <span class="ci-icon">🏠</span>
+              <span>Home Service Available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process" aria-label="How It Works">
+    <p class="section-label">Simple Process</p>
+    <h2 class="section-title">How It <em>Works</em></h2>
+    <p class="section-desc">Getting your appliance repaired is as simple as making a phone call.</p>
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-num">01</div>
+        <h3 class="step-title">Call or WhatsApp</h3>
+        <p class="step-desc">Reach out via call or message and describe your appliance issue.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">02</div>
+        <h3 class="step-title">Schedule Visit</h3>
+        <p class="step-desc">We schedule a home visit at your preferred time and date.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">03</div>
+        <h3 class="step-title">Diagnosis</h3>
+        <p class="step-desc">Our technician inspects the appliance and gives you a cost estimate.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">04</div>
+        <h3 class="step-title">Repair Done ✅</h3>
+        <p class="step-desc">Appliance repaired on the spot. You're back up and running fast.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact" aria-label="Contact Us">
+    <p class="section-label">Get In Touch</p>
+    <h2 class="section-title">Book a Repair <em>Today</em></h2>
+    <p class="section-desc">Call, WhatsApp, or email us — we'll get your appliance fixed right at your doorstep.</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="cc-icon">📞</div>
+        <div class="cc-text">
+          <label>Phone / WhatsApp</label>
+          <a href="tel:+918875474793">+91-8875474793</a>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="cc-icon">✉️</div>
+        <div class="cc-text">
+          <label>Email</label>
+          <a href="mailto:kuldeeprajpurohit1211@gmail.com">kuldeeprajpurohit1211@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="cc-icon">👨‍🔧</div>
+        <div class="cc-text">
+          <label>Technician</label>
+          <span>Kuldeep Rajpurohit</span>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="cc-icon">🏠</div>
+        <div class="cc-text">
+          <label>Service Type</label>
+          <span>Home Service Available</span>
+        </div>
+      </div>
+    </div>
+    <a class="contact-wa-btn" href="https://wa.me/918875474793?text=Hi%20Kuldeep%2C%20I%20need%20appliance%20repair%20service" target="_blank" rel="noopener">
+      <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Chat on WhatsApp
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo">Kuldeep<span>Repair</span></div>
+        <p>Expert home appliance repair services. All types repaired at your doorstep by Kuldeep Rajpurohit.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Gas Stove Repair</a></li>
+          <li><a href="#services">Fan Repair</a></li>
+          <li><a href="#services">Geyser Repair</a></li>
+          <li><a href="#services">Mixer Repair</a></li>
+          <li><a href="#services">Room Heater</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+918875474793">+91-8875474793</a></li>
+          <li><a href="mailto:kuldeeprajpurohit1211@gmail.com">Email Us</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#why">Why Choose Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Kuldeep Rajpurohit · All Home Appliance Repair · All Rights Reserved</p>
+      <div class="footer-home-badge">🏠 Home Service Available</div>
+    </div>
+  </footer>
+
+  <!-- FLOATING CTA -->
+  <div class="float-cta">
+    <a class="float-btn float-wa" href="https://wa.me/918875474793?text=Hi%20Kuldeep%2C%20I%20need%20appliance%20repair%20service" target="_blank" rel="noopener" aria-label="WhatsApp">
+      <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp
+    </a>
+    <a class="float-btn float-call" href="tel:+918875474793" aria-label="Call Now">
+      📞 Call Now
+    </a>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+
+    // Smooth active nav highlight on scroll
+    const sections = document.querySelectorAll('section[id], header[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 120) current = s.id;
+      });
+      navLinks.forEach(a => {
+        a.style.color = a.getAttribute('href') === `#${current}` ? 'var(--accent)' : '';
+      });
+    });
+
+    // Animate service cards on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.service-card, .process-step, .why-feat').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(24px)';
+      el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
